@@ -12,9 +12,9 @@ That's it — no other setup or infrastructure is required. If `NEXT_PUBLIC_GTM_
 
 ### Deploy your own
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=<your-github-url>&env=NEXT_PUBLIC_GTM_ID&envDescription=Your+GTM+container+ID&project-name=gtm-lab&repository-name=gtm-lab)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/etolk/gtm-lab-playground&env=NEXT_PUBLIC_GTM_ID&envDescription=Your+GTM+container+ID&project-name=gtm-lab-playground&repository-name=gtm-lab-playground)
 
-Replace `<your-github-url>` above with this repo's GitHub URL once it's pushed. Vercel will ask for your `NEXT_PUBLIC_GTM_ID` during setup and deploy immediately — no other config needed.
+Click the button, sign in to Vercel, and enter your `NEXT_PUBLIC_GTM_ID` when prompted — it deploys immediately, no other config needed.
 
 ## Features
 
