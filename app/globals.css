@@ -384,7 +384,7 @@ code {
   background-color: var(--nav-bg);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border);
-  transition: background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+  transition: background-color 0.25s ease, border-color 0.25s ease;
 }
 
 .nav-container {
@@ -394,7 +394,11 @@ code {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  transition: border-radius 0.25s ease, box-shadow 0.25s ease, border 0.25s ease, margin 0.25s ease, max-width 0.25s ease;
+  /* Transparent by default so the floating state can crossfade in with the bar fading out */
+  background-color: transparent;
+  border: 1px solid transparent;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0);
+  transition: border-radius 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease, background-color 0.25s ease, margin 0.25s ease, max-width 0.25s ease;
 }
 
 /* When scrolled (desktop): floating pill / consent-banner–like header */
