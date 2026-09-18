@@ -4,6 +4,8 @@ A custom Next.js Single Page Application built as a sandbox for testing and debu
 
 ## Quick Start
 
+### Local deployment
+
 1. Copy [`.env.example`](.env.example) to `.env.local` and set `NEXT_PUBLIC_GTM_ID` to your own GTM container ID.
 2. `npm install`
 3. `npm run dev` — open [http://localhost:3000](http://localhost:3000).
@@ -14,7 +16,7 @@ That's it — no other setup or infrastructure is required. If `NEXT_PUBLIC_GTM_
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/etolk/gtm-lab-playground&env=NEXT_PUBLIC_GTM_ID&envDescription=Your+GTM+container+ID&project-name=gtm-lab-playground&repository-name=gtm-lab-playground)
 
-Click the button, sign in to Vercel, and enter your `NEXT_PUBLIC_GTM_ID` when prompted — it deploys immediately, no other config needed.
+This deploys the app on **Vercel**. You'll need a Vercel account — if you don't have one, the button will prompt you to create one (e.g. by signing in with your GitHub account). The same flow also connects Vercel to your GitHub account and creates its own copy of this repo there, so future pushes to your copy auto-deploy. Enter your `NEXT_PUBLIC_GTM_ID` when prompted and it deploys immediately — no other config needed.
 
 ## Features
 
