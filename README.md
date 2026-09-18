@@ -95,3 +95,7 @@ npm run test:watch
 ## Deployment
 
 Deploys cleanly to Vercel connected to a GitHub repo — see [Deploy your own](#deploy-your-own) above. Once connected, pushes to `main` trigger automatic builds.
+
+## License
+
+[MIT](LICENSE)
