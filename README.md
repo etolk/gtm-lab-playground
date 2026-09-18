@@ -29,7 +29,7 @@ This repo ships a pre-built GTM container — [`gtm-container.json`](gtm-contain
 1. In [Google Tag Manager](https://tagmanager.google.com/), open the container you set as `NEXT_PUBLIC_GTM_ID` (or create a new one).
 2. Go to **Admin → Import Container**.
 3. Choose [`gtm-container.json`](gtm-container.json), pick your workspace, then choose **Merge** (or **Overwrite** for an empty container) → **Confirm**.
-4. Replace the placeholder `G-XXXXXXXXXX` with your own GA4 Measurement ID (found in GA4 Admin → Data Streams). It appears on 14 tags — 2 GA4 Configuration tags plus 12 event tags — update the Measurement ID field on each.
+4. Go to **Variables** and open the **`const - GA4 measurement ID`** constant. Replace the placeholder `G-XXXXXXXXXX` with your own GA4 Measurement ID (found in GA4 Admin → Data Streams). All 14 tags that need it reference this single variable, so one edit updates them all.
 5. **Submit** and publish the container version.
 
 That's it — every event in [Pages & Tracking Scenarios](#pages--tracking-scenarios) and [Global Events](#global-events-any-page) below now flows into your GA4 property.
